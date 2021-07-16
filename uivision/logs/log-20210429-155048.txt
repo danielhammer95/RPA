@@ -1,0 +1,81 @@
+2021-04-29T13:50:48.363Z - UI.Vision RPA started
+2021-04-29T13:50:50.126Z - [status] Playing macro ForEachVariable
+2021-04-29T13:50:50.150Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:50:50.170Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:50:50.189Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:50.661Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:50:50.701Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:50:50.754Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:50:50.780Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:50:50.811Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:54.792Z - [info] Macro was stopped manually (Runtime 4.65s)
+2021-04-29T13:51:36.305Z - [status] Playing macro ForEachVariable
+2021-04-29T13:51:36.339Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:51:36.667Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:51:36.994Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:51:37.789Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:51:38.129Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:51:38.469Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:51:38.793Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:51:39.121Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:51:39.703Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:51:40.043Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:51:40.369Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:51:40.697Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:51:41.023Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:51:41.592Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:51:41.937Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:51:42.264Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:51:42.590Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:51:42.944Z - [info] Macro completed (Runtime 6.62s)
+2021-04-29T13:51:50.850Z - [warning] Web page connection issue. Retrying last command.
+2021-04-29T13:53:22.044Z - [status] Playing macro ForEachVariable
+2021-04-29T13:53:22.079Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:53:22.400Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:53:22.722Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:53:23.411Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:53:23.748Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:53:24.090Z - [info] Executing:  | captureEntirePageScreenshot | $(color) |  | 
+2021-04-29T13:53:25.849Z - [info] a new screenshot captured
+2021-04-29T13:53:26.214Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:53:26.531Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:53:26.858Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:53:27.458Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:53:27.802Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:53:28.146Z - [info] Executing:  | captureEntirePageScreenshot | $(color) |  | 
+2021-04-29T13:53:30.233Z - [info] a new screenshot captured
+2021-04-29T13:53:30.660Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:53:30.992Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:53:31.319Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:53:31.899Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:53:32.239Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:53:32.580Z - [info] Executing:  | captureEntirePageScreenshot | $(color) |  | 
+2021-04-29T13:53:34.602Z - [info] a new screenshot captured
+2021-04-29T13:53:34.936Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:53:35.259Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:53:35.597Z - [info] Macro completed (Runtime 13.53s)
+2021-04-29T13:54:34.272Z - [status] Playing macro ForEachVariable
+2021-04-29T13:54:34.308Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:54:34.630Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:54:34.962Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:54:36.552Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:54:36.897Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:54:37.239Z - [info] Executing:  | captureEntirePageScreenshot | ${color} |  | 
+2021-04-29T13:54:39.027Z - [info] a new screenshot captured
+2021-04-29T13:54:39.401Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:54:39.717Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:54:40.044Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:54:40.626Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:54:40.970Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:54:41.313Z - [info] Executing:  | captureEntirePageScreenshot | ${color} |  | 
+2021-04-29T13:54:43.390Z - [info] a new screenshot captured
+2021-04-29T13:54:43.814Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:54:44.137Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:54:44.467Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:54:45.034Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:54:45.375Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:54:45.721Z - [info] Executing:  | captureEntirePageScreenshot | ${color} |  | 
+2021-04-29T13:54:47.735Z - [info] a new screenshot captured
+2021-04-29T13:54:48.070Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:54:48.402Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:54:48.747Z - [info] Macro completed (Runtime 14.45s)

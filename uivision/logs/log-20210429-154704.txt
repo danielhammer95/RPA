@@ -1,0 +1,50 @@
+2021-04-29T13:47:04.903Z - UI.Vision RPA started
+2021-04-29T13:48:32.570Z - [status] Playing macro ForEachVariable
+2021-04-29T13:48:32.595Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:48:32.616Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:48:32.637Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:48:33.019Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:48:33.049Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-04-29T13:48:40.295Z - [error] No tab with id: 2.
+2021-04-29T13:48:40.321Z - [info] Macro failed (Runtime 7.73s)
+2021-04-29T13:49:09.674Z - [status] Playing macro ForEachVariable
+2021-04-29T13:49:09.705Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:49:09.725Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:49:09.743Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:49:11.010Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:49:11.043Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:49:11.074Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:49:11.093Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:49:11.112Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:49:20.777Z - [info] Macro was stopped manually (Runtime 11.08s)
+2021-04-29T13:49:51.042Z - [status] Playing macro ForEachVariable
+2021-04-29T13:49:51.057Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:49:51.074Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:49:51.092Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:49:52.368Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:49:52.403Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:49:52.430Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:49:52.444Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:49:52.463Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:11.145Z - [warning] Web page connection issue. Retrying last command.
+2021-04-29T13:50:21.061Z - [info] Macro was stopped manually (Runtime 30.01s)
+2021-04-29T13:50:22.200Z - [status] Playing macro ForEachVariable
+2021-04-29T13:50:22.222Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:50:22.241Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:50:22.263Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:22.698Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:50:22.746Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:50:22.803Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:50:22.821Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:50:22.841Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:26.965Z - [info] Macro was stopped manually (Runtime 4.75s)
+2021-04-29T13:50:27.842Z - [status] Playing macro ForEachVariable
+2021-04-29T13:50:27.859Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-04-29T13:50:27.876Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:50:27.895Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:28.164Z - [info] Executing:  | type | name=q | ${color} | 
+2021-04-29T13:50:28.257Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input |  | 
+2021-04-29T13:50:28.290Z - [info] Executing:  | end |  |  | 
+2021-04-29T13:50:28.321Z - [info] Executing:  | forEach | A1 | color | 
+2021-04-29T13:50:28.340Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-04-29T13:50:32.663Z - [info] Macro was stopped manually (Runtime 4.81s)

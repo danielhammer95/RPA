@@ -1,0 +1,46 @@
+{
+  "Name": "Variablen und Warten",
+  "CreationDate": "2021-5-3",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.speedtest.net/",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"container\"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4]",
+      "Value": ""
+    },
+    {
+      "Command": "store",
+      "Target": "60",
+      "Value": "!TIMEOUT_WAIT"
+    },
+    {
+      "Command": "comment",
+      "Target": "waitForElementVisible // xpath=//*[@id=\"container\"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3",
+      "Value": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"container\"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span",
+      "Value": "ping"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"container\"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span",
+      "Value": "downspeed"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"container\"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span",
+      "Value": "upspeed"
+    },
+    {
+      "Command": "echo",
+      "Target": "${downspeed}",
+      "Value": "#shownotification"
+    }
+  ]
+}

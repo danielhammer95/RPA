@@ -1,0 +1,22 @@
+
+START - automation started - Sat May 01 2021 13:34:22 GMT+0200 (Mitteleuropäische Sommerzeit)
+
+https://www.google.de - Google
+type gLFyf gsfi as Rot
+click btnK
+wait 3
+snap page to C:/Users/danie/Desktop/Bildschirmaufnahmen/Rot.png
+https://www.google.de - Google
+type gLFyf gsfi as Gelb
+click btnK
+wait 3
+snap page to C:/Users/danie/Desktop/Bildschirmaufnahmen/Gelb.png
+https://www.google.de - Google
+type gLFyf gsfi as Blau
+click btnK
+wait 3
+snap page to C:/Users/danie/Desktop/Bildschirmaufnahmen/Blau.png
+
+https://www.google.de/search?q=Blau&source=hp&ei=0jyNYLa_B5iCjLsP_5OE2Ak&iflsig=AINFCbYAAAAAYI1K4oo1SR4bsl0aQr7BFTT_f7c4N6Hl&oq=Blau&gs_lcp=Cgdnd3Mtd2l6EAwyAggAMggIABCxAxCLAzIFCC4QsQMyBQgAEIsDMgsILhCxAxCDARCLAzILCAAQsQMQgwEQiwMyCAguELEDEIsDMggILhCxAxCLAzILCC4QsQMQgwEQiwMyEQguELEDEIMBEIsDEKgDEJ4DOggIABCxAxCDAToICC4QsQMQgwE6EQguELEDEIMBEIsDEKgDEJsDOgsIABCxAxDHARCjAjoOCAAQsQMQgwEQxwEQowI6EQgAELEDEIMBEMcBEKMCEIsDOgsIABDHARCjAhCLAzoOCC4QsQMQiwMQqAMQowM6BQgAELEDOg4ILhCxAxCLAxCoAxCYA1C2FFiAF2CGJGgAcAB4AIABSIgBgQKSAQE0mAEAoAEBqgEHZ3dzLXdpergBAw&sclient=gws-wiz&ved=0ahUKEwi28LTqsajwAhUYAWMBHf8JAZsQ4dUDCAs - Blau - Google Suche
+FINISH - automation finished - 28.8s
+

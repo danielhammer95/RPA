@@ -1,0 +1,20 @@
+//OPEN URL google.de
+{
+https://www.google.de
+}
+//SELECT GOOGLE´S TEXTBOX, gLFyf gsfi IS SELECTOR CLASS
+{
+type gLFyf gsfi as `user_password`
+}
+//CLICK BUTTON, btnK IS SELECTOR NAME
+{
+click btnK
+}
+//WAIT 3 SECONDS
+{
+wait 3
+}
+//SAVE SCREENSHOT OF WEBSITE IN WORKFLOW´S FOLDER
+{
+snap page to top_result.png
+}

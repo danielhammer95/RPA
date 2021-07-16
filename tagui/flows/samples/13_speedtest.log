@@ -1,0 +1,22 @@
+
+START - automation started - Mon May 03 2021 16:19:18 GMT+0200 (Mitteleuropäische Sommerzeit)
+
+https://www.speedtest.net/result/10984636644 - Speedtest by Ookla - The Global Broadband Speed Test
+wait 2
+hover C:/tagui/flows/samples/ping.png
+dclick (1157,495)
+keyboard [ctrl]c
+dclick (1317,495)
+keyboard [ctrl]c
+dclick (1577,495)
+keyboard [ctrl]c
+--------------------------
+Ping: 23ms
+Downspeed: 530.37Mbps
+Upspeed: 24.71Mbps
+--------------------------
+you are a fast guy!
+
+https://www.speedtest.net/result/10984636644 - Speedtest by Ookla - The Global Broadband Speed Test
+FINISH - automation finished - 20.0s
+

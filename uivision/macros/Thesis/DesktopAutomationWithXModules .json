@@ -1,0 +1,21 @@
+{
+  "Name": "test",
+  "CreationDate": "2021-2-18",
+  "Commands": [
+    {
+      "Command": "XClick",
+      "Target": "chrome2_dpi_96.png",
+      "Value": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "urlbar2_dpi_96.png",
+      "Value": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "www.google.de ${KEY_ENTER}",
+      "Value": ""
+    }
+  ]
+}

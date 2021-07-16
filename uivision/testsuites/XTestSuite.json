@@ -1,0 +1,14 @@
+{
+  "creationDate": "2018-10-17",
+  "name": "XTestSuite",
+  "macros": [
+    {
+      "macro": "DemoIfElse_Installed_By_XFileAccess",
+      "loops": 1
+    },
+    {
+      "macro": "DemoComputerVision_Installed_By_XFileAccess",
+      "loops": 1
+    }
+  ]
+}

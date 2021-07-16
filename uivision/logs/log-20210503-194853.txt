@@ -1,0 +1,34 @@
+2021-05-03T17:48:53.316Z - UI.Vision RPA started
+2021-05-03T17:49:37.884Z - [status] Playing macro Variablen und Warten
+2021-05-03T17:49:37.913Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-05-03T17:49:43.322Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-05-03T17:49:43.716Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-05-03T17:49:44.031Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-05-03T17:50:20.879Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-05-03T17:50:21.221Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-05-03T17:50:21.577Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-05-03T17:50:21.930Z - [info] Executing:  | echo | $downspeed | #shownotification | 
+2021-05-03T17:50:21.935Z - [echo] $downspeed
+2021-05-03T17:50:22.264Z - [info] Macro completed (Runtime 44.36s)
+2021-05-03T17:51:01.172Z - [status] Playing macro Variablen und Warten
+2021-05-03T17:51:01.199Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-05-03T17:51:03.680Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-05-03T17:51:04.033Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-05-03T17:51:04.355Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-05-03T17:51:42.016Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-05-03T17:51:42.374Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-05-03T17:51:42.718Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-05-03T17:51:43.061Z - [info] Executing:  | echo | ${downspeed} | #shownotification | 
+2021-05-03T17:51:43.065Z - [echo] 526.34
+2021-05-03T17:51:43.393Z - [info] Macro completed (Runtime 42.20s)
+2021-05-03T17:54:48.584Z - [status] Playing macro Variablen und Warten
+2021-05-03T17:54:48.607Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-05-03T17:54:52.752Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-05-03T17:54:53.105Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-05-03T17:54:53.431Z - [info] Executing:  | comment | waitForElementVisible // xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-05-03T17:54:53.758Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-05-03T17:54:54.100Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-05-03T17:54:54.449Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-05-03T17:54:54.786Z - [info] Executing:  | echo | ${downspeed} | #shownotification | 
+2021-05-03T17:54:55.137Z - [info] Macro completed (Runtime 6.54s)
+2021-05-03T18:10:38.286Z - UI.Vision RPA closing

@@ -1,0 +1,2 @@
+2021-02-25T09:47:07.134Z - UI.Vision RPA started
+2021-02-25T09:49:00.103Z - UI.Vision RPA closing

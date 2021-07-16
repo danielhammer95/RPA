@@ -1,0 +1,353 @@
+2021-02-18T15:25:41.736Z - UI.Vision RPA started
+2021-02-18T15:30:09.611Z - [status] Playing macro test
+2021-02-18T15:30:09.634Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:30:09.951Z - [info] Executing:  | forEach |  |  | 
+2021-02-18T15:30:09.958Z - [error] target must be an array
+2021-02-18T15:30:09.982Z - [info] Macro failed (Runtime 0.35s)
+2021-02-18T15:35:13.278Z - [status] Playing macro test
+2021-02-18T15:35:13.300Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:35:13.614Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:35:13.938Z - [info] Executing:  | storeText | xpath=//*[@id="row${number}"]/span | text | 
+2021-02-18T15:35:14.296Z - [info] Executing:  | echo | ${text} |  | 
+2021-02-18T15:35:14.299Z - [echo] hier
+2021-02-18T15:35:14.621Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:35:14.937Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:35:15.250Z - [info] Executing:  | storeText | xpath=//*[@id="row${number}"]/span | text | 
+2021-02-18T15:35:25.316Z - [error][ignored] timeout reached when looking for element 'xpath=//*[@id="row2"]/span'
+2021-02-18T15:35:25.629Z - [info] Executing:  | echo | ${text} |  | 
+2021-02-18T15:35:25.633Z - [echo] #LNF
+2021-02-18T15:35:25.941Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:35:26.267Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:35:26.579Z - [info] Executing:  | storeText | xpath=//*[@id="row${number}"]/span | text | 
+2021-02-18T15:35:28.912Z - [info] Macro was stopped manually (Runtime 15.62s)
+2021-02-18T15:36:59.672Z - [status] Playing macro test
+2021-02-18T15:36:59.699Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:37:00.013Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:37:00.338Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:37:00.700Z - [info] Executing:  | echo | ${text} |  | 
+2021-02-18T15:37:00.703Z - [echo] hier
+2021-02-18T15:37:01.011Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:37:01.334Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:37:01.649Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:37:02.007Z - [info] Executing:  | echo | ${text} |  | 
+2021-02-18T15:37:02.010Z - [echo] wo
+2021-02-18T15:37:02.325Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:37:02.640Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:37:02.956Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:37:03.306Z - [info] Executing:  | echo | ${text} |  | 
+2021-02-18T15:37:03.309Z - [echo] am
+2021-02-18T15:37:03.623Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:37:03.933Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:37:04.277Z - [info] Macro completed (Runtime 4.58s)
+2021-02-18T15:47:20.777Z - [status] Playing macro test
+2021-02-18T15:47:20.803Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:47:21.117Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:47:21.443Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:47:21.807Z - [info] Executing:  | XType | id=inputfield | ${text}  | 
+2021-02-18T15:47:21.810Z - [error] XType currently doesn't use the "Value" field
+2021-02-18T15:47:21.828Z - [info] Macro failed (Runtime 1.03s)
+2021-02-18T15:47:27.275Z - [status] Playing macro test
+2021-02-18T15:47:27.290Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:47:27.605Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:47:27.919Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:47:28.283Z - [info] Executing:  | XType | id=inputfield | ${text}  | 
+2021-02-18T15:47:28.287Z - [error] XType currently doesn't use the "Value" field
+2021-02-18T15:47:28.302Z - [info] Macro failed (Runtime 1.02s)
+2021-02-18T15:47:39.481Z - [status] Playing macro test
+2021-02-18T15:47:39.501Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:47:39.837Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:47:40.152Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:47:40.506Z - [info] Executing:  | XType | id=inputfield | ${text}  | 
+2021-02-18T15:47:40.510Z - [error] XType currently doesn't use the "Value" field
+2021-02-18T15:47:40.525Z - [info] Macro failed (Runtime 1.03s)
+2021-02-18T15:48:14.224Z - [status] Playing macro test
+2021-02-18T15:48:14.242Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:48:14.556Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:48:14.871Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:48:15.234Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:48:15.904Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:48:16.217Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:48:16.532Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:48:16.895Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:48:17.522Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:48:17.840Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:48:18.157Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:48:18.519Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:48:19.141Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:48:19.451Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:48:19.785Z - [info] Macro completed (Runtime 5.55s)
+2021-02-18T15:48:20.092Z - [status] Playing macro test
+2021-02-18T15:48:20.111Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:48:20.423Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:48:20.736Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:48:21.092Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:48:21.710Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:48:22.021Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:48:22.334Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:48:22.682Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:48:23.265Z - [info] Macro was stopped manually (Runtime 3.16s)
+2021-02-18T15:49:00.428Z - [status] Playing macro test
+2021-02-18T15:49:00.457Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:49:02.305Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:49:02.624Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:02.938Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:49:03.306Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:49:03.942Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:49:04.263Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:04.579Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:49:04.941Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:49:05.575Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:49:05.887Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:06.209Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:49:06.574Z - [info] Executing:  | XType | ${text} |  | 
+2021-02-18T15:49:07.207Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:49:07.525Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:07.862Z - [info] Macro completed (Runtime 7.41s)
+2021-02-18T15:49:24.234Z - [status] Playing macro test
+2021-02-18T15:49:24.268Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:49:26.593Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:49:26.910Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:27.242Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:49:27.607Z - [info] Executing:  | XType | ${text}  |  | 
+2021-02-18T15:49:28.233Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:49:28.557Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:28.875Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:49:29.241Z - [info] Executing:  | XType | ${text}  |  | 
+2021-02-18T15:49:29.864Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:49:30.175Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:30.489Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:49:30.854Z - [info] Executing:  | XType | ${text}  |  | 
+2021-02-18T15:49:31.484Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:49:31.796Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:49:32.133Z - [info] Macro completed (Runtime 7.87s)
+2021-02-18T15:49:57.570Z - [status] Playing macro test
+2021-02-18T15:49:57.589Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:49:59.422Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:49:59.741Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:50:00.058Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:50:00.438Z - [info] Executing:  | XType | ${text} ${space} |  | 
+2021-02-18T15:50:00.445Z - [error] variable "SPACE" is not defined
+2021-02-18T15:50:00.464Z - [info] Macro failed (Runtime 2.88s)
+2021-02-18T15:50:40.939Z - [status] Playing macro test
+2021-02-18T15:50:40.971Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:50:42.817Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:50:43.134Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:50:43.462Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:50:43.856Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:50:44.489Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:50:44.802Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:50:45.118Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:50:45.498Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:50:46.127Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:50:46.439Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:50:46.756Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:50:47.130Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:50:47.761Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:50:48.073Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:50:48.411Z - [info] Macro completed (Runtime 7.45s)
+2021-02-18T15:52:58.601Z - [status] Playing macro test
+2021-02-18T15:52:58.631Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3"]; | A1 | 
+2021-02-18T15:52:58.962Z - [info] Macro completed (Runtime 0.34s)
+2021-02-18T15:54:16.260Z - [status] Playing macro test
+2021-02-18T15:54:16.292Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:54:17.825Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3","4","5","6","7","8","9","10,"11","12","13"]; | A1 | 
+2021-02-18T15:54:17.832Z - [error] Error in executeScript_Sandbox code: Unexpected number
+2021-02-18T15:54:17.850Z - [info] Macro failed (Runtime 1.56s)
+2021-02-18T15:56:52.127Z - [status] Playing macro test
+2021-02-18T15:56:52.149Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:56:53.688Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3","4","5","6","7","8","9","10","11","12","13"]; | A1 | 
+2021-02-18T15:56:53.703Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:53.728Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:53.812Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:54.140Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:54.156Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:54.174Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:54.246Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:54.582Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:54.599Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:54.617Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:54.693Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:55.027Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:55.044Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:55.062Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:55.134Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:55.467Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:55.484Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:55.502Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:55.574Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:55.908Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:55.924Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:55.943Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:56.013Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:56.355Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:56.383Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:56.404Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:56.478Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:56.809Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:56.827Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:56.846Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:56.923Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:57.253Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:57.272Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:57.289Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:57.363Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:57.698Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:57.714Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:57.733Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:57.806Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:58.137Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:58.153Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:58.172Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:58.250Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:58.581Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:58.597Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:58.617Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:58.691Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:59.026Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:59.050Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:59.083Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:56:59.162Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:56:59.499Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:56:59.516Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:56:59.560Z - [info] Macro completed (Runtime 7.42s)
+2021-02-18T15:58:01.579Z - [status] Playing macro test
+2021-02-18T15:58:01.613Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:58:03.116Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3","4","5","6","7","8","9","10","11","12","13"]; | A1 | 
+2021-02-18T15:58:03.144Z - [info] Executing:  | while_v2 | true |  | 
+2021-02-18T15:58:03.163Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:03.188Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:03.273Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:03.610Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:03.627Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:03.651Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:03.741Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:04.082Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:04.101Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:04.122Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:04.202Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:04.531Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:04.548Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:04.568Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:04.650Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:04.988Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:05.005Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:05.030Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:05.125Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:05.463Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:05.482Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:05.503Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:05.582Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:05.910Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:05.929Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:05.949Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:06.034Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:06.360Z - [info] Macro was stopped manually (Runtime 4.75s)
+2021-02-18T15:58:10.344Z - [status] Playing macro test
+2021-02-18T15:58:10.379Z - [info] Executing:  | XClick | t8kqfe_dpi_96.png |  | 
+2021-02-18T15:58:11.907Z - [info] Executing:  | executeScript_Sandbox | return ["1","2","3","4","5","6","7","8","9","10","11","12","13"]; | A1 | 
+2021-02-18T15:58:11.930Z - [info] Executing:  | while_v2 | true |  | 
+2021-02-18T15:58:11.952Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:11.973Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:12.066Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:12.401Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:12.420Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:12.441Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:12.520Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:12.858Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:12.876Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:12.895Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:12.977Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:13.316Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:13.333Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:13.353Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:13.433Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:13.763Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:13.781Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:13.800Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:13.889Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:14.223Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:14.246Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:14.278Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:14.364Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:14.699Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:14.717Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:14.740Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:14.824Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:15.158Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:15.177Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:15.198Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:15.283Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:15.615Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:15.633Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:15.653Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:15.737Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:16.077Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:16.095Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:16.114Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:16.205Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:16.538Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:16.556Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:16.575Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:16.663Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:16.997Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:17.030Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:17.055Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:17.146Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:17.487Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:17.505Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:17.527Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:17.617Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:17.946Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:17.965Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:17.984Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:18.002Z - [info] Executing:  | while_v2 | true |  | 
+2021-02-18T15:58:18.021Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:18.044Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:18.140Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:18.479Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:18.497Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:18.518Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:18.606Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:18.941Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:18.959Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:18.978Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:19.065Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:19.402Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:19.420Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:19.440Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:19.560Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:19.895Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:19.914Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:19.936Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:20.026Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:20.370Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:20.388Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:20.409Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:20.498Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:20.844Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:20.863Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:20.885Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:20.968Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:21.304Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:21.322Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:21.344Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:21.441Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:21.779Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:21.799Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:21.819Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:21.905Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:22.240Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:22.261Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:22.283Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:22.417Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:22.747Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:22.768Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:22.791Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:22.895Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:23.235Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:58:23.255Z - [info] Executing:  | forEach | A1 | number | 
+2021-02-18T15:58:23.278Z - [info] Executing:  | storeText | xpath=//*[@id="row1"]/span[${number}] | text | 
+2021-02-18T15:58:23.371Z - [info] Executing:  | XType | ${text} ${KEY_SPACE} |  | 
+2021-02-18T15:58:23.384Z - [error] XClick/XMove/XType 25 commands limit reached
+2021-02-18T15:58:23.417Z - [info] Macro failed (Runtime 13.04s)
+2021-02-18T15:58:37.930Z - UI.Vision RPA closing

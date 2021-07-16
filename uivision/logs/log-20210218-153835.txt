@@ -1,0 +1,261 @@
+2021-02-18T14:38:35.602Z - UI.Vision RPA started
+2021-02-18T14:44:08.123Z - [status] Playing macro test+
+2021-02-18T14:44:08.152Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T14:44:10.529Z - [info] Macro completed (Runtime 2.38s)
+2021-02-18T14:45:04.918Z - [status] Playing macro Variablen und Warten
+2021-02-18T14:45:04.935Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T14:45:07.319Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T14:45:07.684Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-02-18T14:45:08.013Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-02-18T14:45:45.489Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-02-18T14:45:45.838Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-02-18T14:45:46.189Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-02-18T14:45:46.554Z - [info] Macro completed (Runtime 41.62s)
+2021-02-18T14:47:09.772Z - [status] Playing macro Variablen und Warten
+2021-02-18T14:47:09.798Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T14:47:12.194Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T14:47:12.561Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-02-18T14:47:12.879Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-02-18T14:47:50.106Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-02-18T14:47:50.458Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-02-18T14:47:50.805Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-02-18T14:47:51.154Z - [info] Executing:  | echo | wadawd | #shownotification | 
+2021-02-18T14:47:51.159Z - [echo] wadawd
+2021-02-18T14:47:51.485Z - [info] Macro completed (Runtime 41.69s)
+2021-02-18T14:48:15.976Z - [status] Playing macro Variablen und Warten
+2021-02-18T14:48:16.010Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T14:48:18.408Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T14:48:18.780Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-02-18T14:48:19.098Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-02-18T14:48:56.028Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-02-18T14:48:56.373Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-02-18T14:48:56.723Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-02-18T14:48:57.070Z - [info] Executing:  | echo | $downspeed | #shownotification | 
+2021-02-18T14:48:57.076Z - [echo] $downspeed
+2021-02-18T14:48:57.404Z - [info] Macro completed (Runtime 41.40s)
+2021-02-18T14:51:04.391Z - [status] Playing macro test+
+2021-02-18T14:51:04.418Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T14:51:06.799Z - [info] Executing:  | executeScript_Sandbox | return ["T es t"] |  | 
+2021-02-18T14:51:07.130Z - [info] Macro completed (Runtime 2.72s)
+2021-02-18T14:51:27.110Z - [status] Playing macro test+
+2021-02-18T14:51:27.126Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T14:51:29.502Z - [info] Executing:  | executeScript_Sandbox | return ["T es t"] | A1 | 
+2021-02-18T14:51:29.827Z - [info] Macro completed (Runtime 2.71s)
+2021-02-18T14:52:55.389Z - [status] Playing macro test+
+2021-02-18T14:52:55.415Z - [info] Executing:  | executeScript_Sandbox | return ["T es t"] | A1 | 
+2021-02-18T14:52:55.744Z - [info] Macro completed (Runtime 0.33s)
+2021-02-18T14:53:09.591Z - [status] Playing macro test+
+2021-02-18T14:53:09.608Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T14:53:11.968Z - [info] Executing:  | executeScript_Sandbox | return ["Hello","Bonjour","你好"]; | A1 | 
+2021-02-18T14:53:12.288Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:12.601Z - [info] Executing:  | echo | ${greeting} and hav a nice day |  | 
+2021-02-18T14:53:12.605Z - [echo] Hello and hav a nice day
+2021-02-18T14:53:12.915Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:53:13.232Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:13.550Z - [info] Executing:  | echo | ${greeting} and hav a nice day |  | 
+2021-02-18T14:53:13.553Z - [echo] Bonjour and hav a nice day
+2021-02-18T14:53:13.863Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:53:14.173Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:14.486Z - [info] Executing:  | echo | ${greeting} and hav a nice day |  | 
+2021-02-18T14:53:14.489Z - [echo] 你好 and hav a nice day
+2021-02-18T14:53:14.797Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:53:15.117Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:15.456Z - [info] Macro completed (Runtime 5.85s)
+2021-02-18T14:53:27.160Z - [status] Playing macro test+
+2021-02-18T14:53:27.183Z - [info] Executing:  | executeScript_Sandbox | return ["Hello","Bonjour","你好"]; | A1 | 
+2021-02-18T14:53:27.495Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:27.809Z - [info] Executing:  | echo | ${greeting} and hav a nice day |  | 
+2021-02-18T14:53:27.814Z - [echo] Hello and hav a nice day
+2021-02-18T14:53:28.122Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:53:28.433Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:28.745Z - [info] Executing:  | echo | ${greeting} and hav a nice day |  | 
+2021-02-18T14:53:28.749Z - [echo] Bonjour and hav a nice day
+2021-02-18T14:53:29.056Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:53:29.367Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:29.679Z - [info] Executing:  | echo | ${greeting} and hav a nice day |  | 
+2021-02-18T14:53:29.683Z - [echo] 你好 and hav a nice day
+2021-02-18T14:53:29.996Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:53:30.307Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:53:30.641Z - [info] Macro completed (Runtime 3.46s)
+2021-02-18T14:55:39.616Z - [status] Playing macro test+
+2021-02-18T14:55:39.650Z - [info] Executing:  | executeScript_Sandbox | return ["Hello","Bonjour","你好"]; | A1 | 
+2021-02-18T14:55:39.675Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:55:39.702Z - [info] Executing:  | echo | ${greeting} ist eine  |  | 
+2021-02-18T14:55:39.707Z - [echo] Hello ist eine
+2021-02-18T14:55:39.720Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:55:39.739Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:55:39.760Z - [info] Executing:  | echo | ${greeting} ist eine  |  | 
+2021-02-18T14:55:39.766Z - [echo] Bonjour ist eine
+2021-02-18T14:55:39.780Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:55:39.800Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:55:39.832Z - [info] Executing:  | echo | ${greeting} ist eine  |  | 
+2021-02-18T14:55:39.838Z - [echo] 你好 ist eine
+2021-02-18T14:55:39.855Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:55:39.872Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:55:39.911Z - [info] Macro completed (Runtime 0.27s)
+2021-02-18T14:56:40.534Z - [status] Playing macro ForEach
+2021-02-18T14:56:40.559Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T14:56:40.880Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:56:41.199Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. |  | 
+2021-02-18T14:56:41.206Z - [echo] Rot ist eine Farbe.
+2021-02-18T14:56:41.515Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:56:41.829Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:56:42.148Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. |  | 
+2021-02-18T14:56:42.154Z - [echo] Gelb ist eine Farbe.
+2021-02-18T14:56:42.480Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:56:42.790Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:56:43.103Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. |  | 
+2021-02-18T14:56:43.107Z - [echo] Blau ist eine Farbe.
+2021-02-18T14:56:43.428Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:56:43.740Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:56:44.073Z - [info] Macro completed (Runtime 3.52s)
+2021-02-18T14:56:56.977Z - [status] Playing macro ForEach
+2021-02-18T14:56:57.004Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. |  | 
+2021-02-18T14:56:57.012Z - [error] variable "GREETING" is not defined
+2021-02-18T14:56:57.042Z - [info] Macro failed (Runtime 0.04s)
+2021-02-18T14:57:07.162Z - [status] Playing macro ForEach
+2021-02-18T14:57:07.181Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T14:57:07.498Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:07.822Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. | #shownotification | 
+2021-02-18T14:57:07.827Z - [echo] Rot ist eine Farbe.
+2021-02-18T14:57:08.140Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:57:08.459Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:08.773Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. | #shownotification | 
+2021-02-18T14:57:08.777Z - [echo] Gelb ist eine Farbe.
+2021-02-18T14:57:09.092Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:57:09.405Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:09.726Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. | #shownotification | 
+2021-02-18T14:57:09.730Z - [echo] Blau ist eine Farbe.
+2021-02-18T14:57:10.041Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:57:10.361Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:10.698Z - [info] Macro completed (Runtime 3.52s)
+2021-02-18T14:57:31.264Z - [status] Playing macro ForEach
+2021-02-18T14:57:31.282Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T14:57:31.301Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:31.319Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. | #shownotification | 
+2021-02-18T14:57:31.323Z - [echo] Rot ist eine Farbe.
+2021-02-18T14:57:31.343Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:57:31.374Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:31.399Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. | #shownotification | 
+2021-02-18T14:57:31.404Z - [echo] Gelb ist eine Farbe.
+2021-02-18T14:57:31.420Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:57:31.446Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:31.469Z - [info] Executing:  | echo | ${greeting} ist eine Farbe. | #shownotification | 
+2021-02-18T14:57:31.473Z - [echo] Blau ist eine Farbe.
+2021-02-18T14:57:31.489Z - [info] Executing:  | end |  |  | 
+2021-02-18T14:57:31.525Z - [info] Executing:  | forEach | A1 | greeting | 
+2021-02-18T14:57:31.554Z - [info] Macro completed (Runtime 0.28s)
+2021-02-18T15:00:04.913Z - [status] Playing macro ForEach
+2021-02-18T15:00:04.944Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T15:00:05.260Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:00:05.579Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:00:07.948Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:00:08.297Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:00:08.629Z - [info] Executing:  | comment | echo // ${color} ist eine Farbe. | #shownotification | 
+2021-02-18T15:00:08.944Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:00:09.259Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:00:09.576Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:00:11.947Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:00:12.297Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:00:12.645Z - [info] Executing:  | comment | echo // ${color} ist eine Farbe. | #shownotification | 
+2021-02-18T15:00:12.962Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:00:13.287Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:00:13.615Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:00:15.987Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:00:16.320Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:00:16.650Z - [info] Executing:  | comment | echo // ${color} ist eine Farbe. | #shownotification | 
+2021-02-18T15:00:16.964Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:00:17.278Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:00:17.624Z - [info] Macro completed (Runtime 12.69s)
+2021-02-18T15:00:56.978Z - [status] Playing macro ForEach
+2021-02-18T15:00:56.997Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T15:00:57.018Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:00:57.040Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:00:59.134Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:00:59.183Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:00:59.218Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:00:59.236Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:00:59.260Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:01:01.329Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:01:01.361Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:01:01.396Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:01:01.414Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:01:01.432Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:01:03.488Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:01:03.542Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:01:03.575Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:01:03.594Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:01:03.639Z - [info] Macro completed (Runtime 6.65s)
+2021-02-18T15:02:10.678Z - [status] Playing macro ForEachVariable
+2021-02-18T15:02:10.700Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T15:02:11.020Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:02:11.335Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:02:13.706Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:02:14.054Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:02:14.389Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:02:14.714Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:02:15.043Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:02:17.416Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:02:17.765Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:02:18.097Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:02:18.412Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:02:18.739Z - [info] Executing:  | open | https://www.google.de/ |  | 
+2021-02-18T15:02:21.108Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:02:21.453Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:02:21.787Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:02:22.103Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:02:22.447Z - [info] Macro completed (Runtime 11.75s)
+2021-02-18T15:03:40.006Z - [status] Playing macro ForEachVariable
+2021-02-18T15:03:40.026Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T15:03:40.343Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:40.660Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-02-18T15:03:41.325Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:03:41.675Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:03:42.019Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:03:42.333Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:42.649Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-02-18T15:03:43.234Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:03:43.581Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:03:43.914Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:03:44.232Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:44.560Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-02-18T15:03:45.142Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:03:45.492Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:03:45.842Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:03:46.155Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:46.496Z - [info] Macro completed (Runtime 6.47s)
+2021-02-18T15:03:53.100Z - [status] Playing macro ForEachVariable
+2021-02-18T15:03:53.128Z - [info] Executing:  | executeScript_Sandbox | return ["Rot","Gelb","Blau"]; | A1 | 
+2021-02-18T15:03:53.456Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:53.773Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-02-18T15:03:54.514Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:03:54.867Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:03:55.197Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:03:55.512Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:55.830Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-02-18T15:03:56.404Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:03:56.750Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:03:57.084Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:03:57.398Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:57.727Z - [info] Executing:  | selectWindow | tab=open | https://www.google.de/ | 
+2021-02-18T15:03:58.292Z - [info] Executing:  | type | name=q | ${color} | 
+2021-02-18T15:03:58.639Z - [info] Executing:  | click | xpath=/html/body/div/div[3]/form/div[2]/div/div[3]/center/input |  | 
+2021-02-18T15:03:58.972Z - [info] Executing:  | end |  |  | 
+2021-02-18T15:03:59.289Z - [info] Executing:  | forEach | A1 | color | 
+2021-02-18T15:03:59.647Z - [info] Macro completed (Runtime 6.53s)
+2021-02-18T15:06:43.986Z - [status] Playing macro new
+2021-02-18T15:06:44.014Z - [info] Macro completed (Runtime 0.01s)
+2021-02-18T15:09:09.062Z - [status] Playing macro StartChromeFromDesktop
+2021-02-18T15:09:09.092Z - [info] Executing:  | XClick | urlbar_dpi_96.png |  | 
+2021-02-18T15:09:13.851Z - [info] Executing:  | XClick | urlbar_dpi_96.png |  | 
+2021-02-18T15:09:18.561Z - [info] Executing:  | XType | https://www.google.de/ |  | 
+2021-02-18T15:09:19.200Z - [info] Executing:  | XType | ${KEY_ENTER} |  | 
+2021-02-18T15:09:19.847Z - [info] Macro completed (Runtime 10.76s)
+2021-02-18T15:10:53.053Z - [status] Playing macro test
+2021-02-18T15:10:53.083Z - [info] Executing:  | XClick | chrome2_dpi_96.png |  | 
+2021-02-18T15:10:57.395Z - [info] Macro completed (Runtime 4.32s)
+2021-02-18T15:12:22.524Z - [status] Playing macro test
+2021-02-18T15:12:22.547Z - [info] Executing:  | XClick | chrome2_dpi_96.png |  | 
+2021-02-18T15:12:26.686Z - [info] Executing:  | XClick | urlbar2_dpi_96.png |  | 
+2021-02-18T15:12:28.095Z - [info] Executing:  | XType | www.google.de ${KEY_ENTER} |  | 
+2021-02-18T15:12:28.848Z - [info] Macro completed (Runtime 6.31s)

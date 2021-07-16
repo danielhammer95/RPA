@@ -1,0 +1,44 @@
+2021-02-18T12:38:41.492Z - [status] Playing macro Webformular
+2021-02-18T12:38:41.525Z - [info] Executing:  | XClick |  |  | 
+2021-02-18T12:38:41.546Z - [error] XClick: invalid target, ''
+2021-02-18T12:38:41.568Z - [info] Macro failed (Runtime 0.05s)
+2021-02-18T12:38:42.435Z - [status] Playing macro Webformular
+2021-02-18T12:38:42.450Z - [info] Executing:  | XClick |  |  | 
+2021-02-18T12:38:42.461Z - [error] XClick: invalid target, ''
+2021-02-18T12:38:42.475Z - [info] Macro failed (Runtime 0.03s)
+2021-02-18T12:39:15.572Z - [status] Playing macro Webformular
+2021-02-18T12:39:15.587Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T12:39:19.826Z - [info] Macro completed (Runtime 4.24s)
+2021-02-18T12:39:50.409Z - [status] Playing macro Webformular
+2021-02-18T12:39:50.425Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T12:39:52.808Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T12:39:53.184Z - [info] Macro completed (Runtime 2.76s)
+2021-02-18T12:43:34.778Z - [status] Playing macro Webformular
+2021-02-18T12:43:34.796Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T12:43:37.168Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T12:43:37.533Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-02-18T12:43:37.858Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-02-18T12:43:38.488Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-02-18T12:43:38.863Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-02-18T12:43:39.242Z - [info] Macro completed (Runtime 4.45s)
+2021-02-18T12:43:49.144Z - [status] Playing macro Webformular
+2021-02-18T12:43:49.163Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T12:43:51.566Z - [status] Macro paused
+2021-02-18T12:44:01.778Z - [info] Macro was stopped manually (Runtime 15.03s)
+2021-02-18T12:45:58.471Z - [status] Playing macro Webformular
+2021-02-18T12:45:58.489Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T12:46:00.929Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T12:46:01.379Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-02-18T12:46:01.702Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-02-18T12:46:38.230Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div/div/div[2]/span | ping | 
+2021-02-18T12:46:38.573Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span | downspeed | 
+2021-02-18T12:46:38.986Z - [info] Executing:  | storeText | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div/div[3]/div/div[2]/span | upspeed | 
+2021-02-18T12:46:39.440Z - [info] Macro completed (Runtime 40.96s)
+2021-02-18T12:50:58.961Z - [status] Playing macro Webformular
+2021-02-18T12:50:58.988Z - [info] Executing:  | open | https://www.speedtest.net/ |  | 
+2021-02-18T12:51:01.096Z - [info] Executing:  | click | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div/a/span[4] |  | 
+2021-02-18T12:51:01.169Z - [info] Executing:  | store | 60 | !TIMEOUT_WAIT | 
+2021-02-18T12:51:01.199Z - [info] Executing:  | waitForElementVisible | xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3 |  | 
+2021-02-18T12:52:01.264Z - [error] timeout reached when looking for element 'xpath=//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/div/div/h3'
+2021-02-18T12:52:01.283Z - [info] Macro failed (Runtime 62.30s)
+2021-02-18T13:19:28.160Z - UI.Vision RPA closing

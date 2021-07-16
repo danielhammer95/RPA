@@ -1,0 +1,12 @@
+
+START - automation started - Wed Feb 24 2021 15:57:59 GMT+0100 (Mitteleuropäische Zeit)
+https://www.google.de - Google
+
+type gLFyf gsfi as iloveminnie4eva
+click btnK
+wait 3
+snap page to top_result.png
+
+https://www.google.de/ - Google
+FINISH - automation finished - 11.9s
+

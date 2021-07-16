@@ -1,0 +1,41 @@
+{
+  "Name": "ForEachVariable",
+  "CreationDate": "2021-4-29",
+  "Commands": [
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return [\"Rot\",\"Gelb\",\"Blau\"];",
+      "Value": "A1"
+    },
+    {
+      "Command": "forEach",
+      "Target": "A1",
+      "Value": "color"
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=open",
+      "Value": "https://www.google.de/"
+    },
+    {
+      "Command": "type",
+      "Target": "name=q",
+      "Value": "${color}"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div/div[3]/form/div/div/div[3]/center/input",
+      "Value": ""
+    },
+    {
+      "Command": "captureEntirePageScreenshot",
+      "Target": "${color}",
+      "Value": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": ""
+    }
+  ]
+}
